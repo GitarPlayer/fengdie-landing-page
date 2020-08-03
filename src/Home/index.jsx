@@ -21,7 +21,7 @@ class Home extends React.PureComponent {
         <Page3 key="page3" />
         <Page4 key="page4" />
         <Footer key="footer" />
-        <DocumentTitle title="凤蝶 - 移动建站平台" />
+        <DocumentTitle title="Lektorat Luzern" />
       </div>
     );
   }

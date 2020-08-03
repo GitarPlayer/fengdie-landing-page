@@ -18,17 +18,17 @@ class Banner extends React.PureComponent {
         <div className="home-layout">
           <QueueAnim className={`${className}-content-wrapper`} delay={300} ease="easeOutQuart">
             <h1 key="h2">
-              极简制作，一键呈现
+              Lektorat Luzern
             </h1>
-            <p key="p">为您提供专业的云上建站服务，满足不同行业的个性化需求</p>
+            <p key="p">Bestes Lektorat in Luzern. Trust me.</p>
             <span key="button">
               <Button
                 type="primary"
                 onClick={() => {
-                window.location.href = '/activity/home';
-              }}
+                  window.location.href = '/activity/home';
+                }}
               >
-                开始使用
+                Order kidney
               </Button>
             </span>
           </QueueAnim>

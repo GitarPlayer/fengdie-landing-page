@@ -2,35 +2,35 @@ import React from 'react';
 
 export const page1 = [
   {
-    title: '轻松建站',
-    content: '支持可视化编辑、自由拖拽排版、实时预览、在线访问加速等功能',
+    title: 'Service1',
+    content: 'ServiceDescription1',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/MmROsqZndrFBrIspzLlL.png',
   },
   {
-    title: '数据分析',
-    content: '网站内设有数据监测埋点，助你时刻掌握站点效果，鉴别有效渠道',
+    title: 'Service2',
+    content: 'ServiceDescription2',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/ONvKhpRAmkCfdEhkUZkJ.png',
   },
   {
-    title: '企业协同',
-    content: '企业版支持以团队管理的方式，多人协作完成营销站点，共享资源',
+    title: 'Service3',
+    content: 'ServiceDescription3',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/oxmXLgGjCeXfYPcVSbKg.png',
   },
 ];
 
 export const page2 = [
   {
-    title: '端午节',
+    title: 'CurrentProject1',
     url: 'https://render.alipay.com/p/f/fd-jauizbz9/index.html',
     image: 'https://gw.alipayobjects.com/zos/rmsportal/VMhxnfHxvCgksDCnbfQX.jpg',
   },
   {
-    title: '余额宝4周年',
+    title: 'CurrentProject2',
     url: 'https://render.alipay.com/p/f/fd-jauj8apg/index.html',
     image: 'https://gw.alipayobjects.com/zos/rmsportal/kJCZlvEAvTnyLVqzrhzH.jpg',
   },
   {
-    title: '支付宝付款',
+    title: 'CurrentProject3',
     url: 'http://www.anijue.com/p/q/j5rxse2a/pages/home/index.html',
     image: 'https://gw.alipayobjects.com/zos/rmsportal/yKHLCeGLgdFoxFXhzFtu.jpg',
   },
@@ -38,11 +38,11 @@ export const page2 = [
 
 export const page3 = [
   {
-    title: '个人版',
+    title: 'About1',
     content: [
-      <p key="1">支持 H5 站点制作</p>,
-      <p key="2">支持模板管理</p>,
-      <p key="3">支持数据分析</p>,
+      <p key="1">About1 paragraph1</p>,
+      <p key="2">About1 paragraph2</p>,
+      <p key="3">About1 paragraph3</p>,
     ],
     // exp: '免费使用',
     svg: (<svg width="32px" height="32px" viewBox="0 0 32 32">
@@ -80,14 +80,14 @@ export const page3 = [
     </svg>),
   },
   {
-    title: '企业版',
+    title: 'About2',
     content: [
-      <p key="1">支持 H5 站点制作</p>,
-      <p key="2">支持模板管理，实现模板共享</p>,
-      <p key="3">支持工作组管理，实现多人协作</p>,
-      <p key="4">支持自定义发布审批流</p>,
-      <p key="5">支持自定义域名</p>,
-      <p key="6">支持成员管理</p>,
+      <p key="1">About2 paragraph1</p>,
+      <p key="2">About2 paragraph2</p>,
+      <p key="3">About2 paragraph3</p>,
+      <p key="4">About2 paragraph4</p>,
+      <p key="5">About2 paragraph5</p>,
+      <p key="6">About2 paragraph6</p>,
     ],
     svg: (
       <svg width="32px" height="32px" viewBox="0 0 32 32">
@@ -119,13 +119,13 @@ export const page3 = [
       </svg>),
   },
   {
-    title: '企业 VIP 版',
+    title: 'About3',
     content: [
-      <p key="1">支持通过 OpenAPI 调用制作流程</p>,
-      <p key="2">可以指定可用模板，企业内共享模板</p>,
-      <p key="3">支持创建多个企业级账户</p>,
-      <p key="4">支持自定义发布审批流</p>,
-      <p key="5">支持自定义域名</p>],
+      <p key="1">About3 paragraph1</p>,
+      <p key="2">About3 paragraph2</p>,
+      <p key="3">About3 paragraph3</p>,
+      <p key="4">About3 paragraph4</p>,
+      <p key="5">About3 paragraph5</p>],
     svg: (
       <svg width="32px" height="32px" viewBox="0 0 32 32">
         <path
@@ -236,16 +236,9 @@ export const page4 = [
   'https://gw.alipayobjects.com/zos/rmsportal/ktLOdfjNyExgKyWjiCvm.svg',
   'https://gw.alipayobjects.com/zos/rmsportal/gNNxbrNqlHdnRuMjUXrL.svg',
   'https://gw.alipayobjects.com/zos/rmsportal/qWaneWxxMVpASpiCOcsT.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/kyCpvqWFloOpAOqzOlBg.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/bBzJNEnPvyhNUhyHipvO.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/UbEpCMXGBmDgkJXfIgMx.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/xsWGKOdkRoJnzHIZlRiD.svg',
 ];
 
 export const footer = [
-  { text: '解决方案', src: '#' },
-  { text: '使用帮助', src: '#' },
-  { text: '模板开发文档', src: '#' },
-  { text: '模板开发工具', src: '#' },
-  { text: '联系我们', src: 'mailto:zhao.wuz@antfin.com' },
+  { text: 'Get a quote', src: '#' },
+  { text: 'Contact me', src: 'mailto:zhao.wuz@antfin.com' },
 ];
